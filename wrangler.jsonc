@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cheapest-module-worker",
+  "main": "worker/index.ts",
+  "compatibility_date": "2024-04-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "ENVIRONMENT": "production",
+    "CLIENT_ORIGIN": "https://cheapest-modules.pages.dev"
+  }
+}
